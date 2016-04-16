@@ -8,9 +8,11 @@
     <form method="GET" action="render.php">
         <label for="name">Vložte jméno zaslouženého občana: </label>
         <input type="text" id="name" name="name" required="required"><br/>
-        <label for="reason" id="reason"></label>
-        <input type="radio">
-        
+        <label for="reason-pre-defined">Vybrat náhodný důvod: </label>
+        <input type="radio" name="reason" id="reason-pre-defined" value="pre-defined"><br/>
+        <label for="reason-custom">Napsat důvod vlastní: </label>
+        <input type="radio" name="reason" id="reason-custom" value="custom" checked="checked">
+        <input type="text" name="reason-custom-text"><br/>
         <input type="submit" value="Vygenerovat formulář">
     </form>
 </body>
