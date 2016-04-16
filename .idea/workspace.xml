@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35aa13c0-dd90-4f50-ae55-bda7dbfb986f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="/var/www/html/navrhNaVyznamenaniCeska/Helvetica Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="/var/www/html/navrhNaVyznamenaniCeska/Helvetica.otf" />
+    <list default="true" id="35aa13c0-dd90-4f50-ae55-bda7dbfb986f" name="Default" comment="added .gitignore">
+      <change type="NEW" beforePath="" afterPath="/var/www/html/navrhNaVyznamenaniCeska/.gitignore" />
       <change type="MODIFICATION" beforePath="/var/www/html/navrhNaVyznamenaniCeska/.idea/workspace.xml" afterPath="/var/www/html/navrhNaVyznamenaniCeska/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="/var/www/html/navrhNaVyznamenaniCeska/index.html" afterPath="/var/www/html/navrhNaVyznamenaniCeska/index.html" />
-      <change type="MODIFICATION" beforePath="/var/www/html/navrhNaVyznamenaniCeska/paper.php" afterPath="/var/www/html/navrhNaVyznamenaniCeska/paper.php" />
-      <change type="MODIFICATION" beforePath="/var/www/html/navrhNaVyznamenaniCeska/render.php" afterPath="/var/www/html/navrhNaVyznamenaniCeska/render.php" />
     </list>
     <ignored path="navrhNaVyznamenaniCzechie.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file:///var/www/html/navrhNaVyznamenaniCeska/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -48,6 +44,16 @@
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file:///var/www/html/navrhNaVyznamenaniCeska/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,6 +101,7 @@
         <option value="/var/www/html/navrhNaVyznamenaniCeska/render.php" />
         <option value="/var/www/html/navrhNaVyznamenaniCeska/paper.php" />
         <option value="/var/www/html/navrhNaVyznamenaniCeska/index.html" />
+        <option value="/var/www/html/navrhNaVyznamenaniCeska/.gitignore" />
       </list>
     </option>
   </component>
@@ -117,7 +124,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -228,7 +235,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1460808075341</updated>
-      <workItem from="1460808076958" duration="5434000" />
+      <workItem from="1460808076958" duration="5508000" />
     </task>
     <task id="LOCAL-00001" summary="innitial commit">
       <created>1460809936635</created>
@@ -244,11 +251,18 @@
       <option name="project" value="LOCAL" />
       <updated>1460811266888</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="designed basic layout + fixed unicode texts">
+      <created>1460813589963</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1460813589963</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5434000" />
+    <option name="totallyTimeSpent" value="5508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="25" width="1372" height="745" extended-state="6" />
@@ -281,7 +295,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="innitial commit" />
     <MESSAGE value="added dummy text and reason choosing" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dummy text and reason choosing" />
+    <MESSAGE value="designed basic layout + fixed unicode texts" />
+    <option name="LAST_COMMIT_MESSAGE" value="designed basic layout + fixed unicode texts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -330,6 +345,14 @@
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/www/html/navrhNaVyznamenaniCeska/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
