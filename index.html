@@ -4,7 +4,25 @@
     <meta charset="UTF-8">
     <title>Návrh na vyznamenání Česka</title>
 </head>
-<body>
+<body style="
+       background-color: black;
+       color: white;
+       ">
+<div style="display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -webkit-flex-direction: column; /* works with row or column */
+    justify-content: center;
+    ">
+    <h2>
+        Generování návrhů na státní vyznamenání Česka
+    </h2>
+    <h4>
+        po vygenerování nutno vytisknout stažené PDF, vytisknout a zaslat na adresu Pražský Hrad, Praha, Česko
+    </h4>
     <form method="GET" action="render.php">
         <label for="name">Vložte jméno zaslouženého občana: </label>
         <input type="text" id="name" name="name" required="required"><br/>
@@ -15,5 +33,6 @@
         <input type="text" name="reason-custom-text"><br/>
         <input type="submit" value="Vygenerovat formulář">
     </form>
+</div>
 </body>
 </html>

@@ -12,7 +12,7 @@ $type = htmlspecialchars($_GET['reason'], ENT_QUOTES);
 if ($type == 'custom')
 	$reason = htmlspecialchars($_GET['reason-custom-text'], ENT_QUOTES);
 else 
-	$reason = array_rand($coolReasons);
+	$reason = $coolReasons[array_rand($coolReasons)];
 
 
 //html output
@@ -25,7 +25,7 @@ use Dompdf\Dompdf;
 
 // instantiate and use the dompdf class
 $dompdf = new Dompdf();
-$dompdf->set_option('defaultFont', 'Helvetica');
+//$dompdf->set_option('defaultFont', 'Helvetica');
 $dompdf->loadHtml(returnHtmlPaper($name, $reason));
 
 // Setup the paper size and orientation
